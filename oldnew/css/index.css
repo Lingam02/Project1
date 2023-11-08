@@ -46,4 +46,9 @@ animation: shake 0.3s ease-in-out;
 }
 button{
     background-color: #00cc00;
+    padding: 8px 10px;
+    border: 1px solid #00cc00;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
 }

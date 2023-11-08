@@ -50,7 +50,7 @@ if (isset($_SESSION["error_message"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Form with Database</title>
-   
+   <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <h1>PHP Form with Database</h1>
@@ -61,7 +61,7 @@ if (isset($_SESSION["error_message"])) {
         <label for="email">Email:</label>
         <input type="email" name="email" id="email" required><br><br>
 
-        <input type="submit" name="submit" value="Submit">
+        <button type="submit">Submit</button>
     </form>
     <!-- Display the success message or error message if set -->
     <div id="toast" class="<?php echo $success_message ? 'toast-success' : 'toast'; ?> <?php echo $success_message || $error_message ? 'show-toast' : ''; ?>">
