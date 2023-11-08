@@ -50,54 +50,7 @@ if (isset($_SESSION["error_message"])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Form with Database</title>
-    <style>
-    /* Toast CSS */
-    .toast {
-    visibility: hidden;
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: red;
-    color: #fff;
-    text-align: center;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    opacity: 0;
-    transition: visibility 0s 2s, opacity 2s linear;
-    animation: shake 0.3s ease-in-out;
-}
-
-@keyframes shake {
-    0%, 100% { transform: translateX(-50%); }
-    10%, 30%, 50%, 70%, 90% { transform: translateX(-45%); }
-    20%, 40%, 60%, 80% { transform: translateX(-55%); }
-}
-
-
-    .toast-success {
-        visibility: hidden;
-        position: fixed;
-        bottom: 30px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #00cc00; /* Green background color for success */
-        color: #fff;
-        text-align: center;
-        padding: 15px;
-        border-radius: 5px;
-        opacity: 0;
-        transition: visibility 0s 2s, opacity 2s linear;
-    }
-
-    /* Show the toast */
-    .show-toast {
-        visibility: visible;
-        opacity: 1;
-        transition: opacity 0.5s linear;
-    }
-    </style>
+   
 </head>
 <body>
     <h1>PHP Form with Database</h1>
